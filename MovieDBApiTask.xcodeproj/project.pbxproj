@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		74977135FD5BCA77E3DC4AC0 /* Pods_MovieDBApiTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C34048214FBC57F0032E00 /* Pods_MovieDBApiTask.framework */; };
 		7E13580F2254AC190033FD46 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E13580E2254AC190033FD46 /* Movie.swift */; };
+		7E1358112254F5830033FD46 /* PopularVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1358102254F5830033FD46 /* PopularVC+TableView.swift */; };
 		7E1670D62254A62B00525ADE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670D52254A62B00525ADE /* Constants.swift */; };
 		7E1670DB2254A64800525ADE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670DA2254A64800525ADE /* UIView.swift */; };
 		7E1670DE2254A65C00525ADE /* ActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670DD2254A65C00525ADE /* ActorCell.swift */; };
@@ -25,6 +26,7 @@
 		1B7CCD8C8CD38EB036EF0AF6 /* Pods_PayPalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C34048214FBC57F0032E00 /* Pods_MovieDBApiTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieDBApiTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E13580E2254AC190033FD46 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7E1358102254F5830033FD46 /* PopularVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopularVC+TableView.swift"; sourceTree = "<group>"; };
 		7E1670D52254A62B00525ADE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7E1670DA2254A64800525ADE /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		7E1670DD2254A65C00525ADE /* ActorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorCell.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				7E1670E02254A67600525ADE /* PopularVC.swift */,
+				7E1358102254F5830033FD46 /* PopularVC+TableView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,14 +232,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MovieDBApiTask/Pods-MovieDBApiTask-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -270,6 +273,7 @@
 			files = (
 				7E1670E12254A67600525ADE /* PopularVC.swift in Sources */,
 				7E1670DB2254A64800525ADE /* UIView.swift in Sources */,
+				7E1358112254F5830033FD46 /* PopularVC+TableView.swift in Sources */,
 				7EDD94822223FA3E0005B7B9 /* ViewController.swift in Sources */,
 				7E1670E32254A68100525ADE /* CellIDS.swift in Sources */,
 				7EDD94802223FA3E0005B7B9 /* AppDelegate.swift in Sources */,
