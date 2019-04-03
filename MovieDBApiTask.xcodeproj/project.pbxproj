@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74977135FD5BCA77E3DC4AC0 /* Pods_MovieDBApiTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C34048214FBC57F0032E00 /* Pods_MovieDBApiTask.framework */; };
+		7E13580F2254AC190033FD46 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E13580E2254AC190033FD46 /* Movie.swift */; };
+		7E1670D62254A62B00525ADE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670D52254A62B00525ADE /* Constants.swift */; };
+		7E1670DB2254A64800525ADE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670DA2254A64800525ADE /* UIView.swift */; };
+		7E1670DE2254A65C00525ADE /* ActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670DD2254A65C00525ADE /* ActorCell.swift */; };
+		7E1670E12254A67600525ADE /* PopularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670E02254A67600525ADE /* PopularVC.swift */; };
+		7E1670E32254A68100525ADE /* CellIDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1670E22254A68100525ADE /* CellIDS.swift */; };
 		7EDD94802223FA3E0005B7B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD947F2223FA3E0005B7B9 /* AppDelegate.swift */; };
 		7EDD94822223FA3E0005B7B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD94812223FA3E0005B7B9 /* ViewController.swift */; };
 		7EDD94852223FA3E0005B7B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD94832223FA3E0005B7B9 /* Main.storyboard */; };
@@ -15,13 +22,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7EDD947C2223FA3E0005B7B9 /* PayPalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7CCD8C8CD38EB036EF0AF6 /* Pods_PayPalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C34048214FBC57F0032E00 /* Pods_MovieDBApiTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieDBApiTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E13580E2254AC190033FD46 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7E1670D52254A62B00525ADE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7E1670DA2254A64800525ADE /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7E1670DD2254A65C00525ADE /* ActorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorCell.swift; sourceTree = "<group>"; };
+		7E1670E02254A67600525ADE /* PopularVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularVC.swift; sourceTree = "<group>"; };
+		7E1670E22254A68100525ADE /* CellIDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellIDS.swift; sourceTree = "<group>"; };
+		7EDD947C2223FA3E0005B7B9 /* MovieDBApiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDBApiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDD947F2223FA3E0005B7B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDD94812223FA3E0005B7B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EDD94842223FA3E0005B7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EDD94862223FA3F0005B7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDD94892223FA3F0005B7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EDD948B2223FA3F0005B7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EACB6CA7BB0D6FB06876E3E /* Pods-PayPalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPalTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayPalTest/Pods-PayPalTest.release.xcconfig"; sourceTree = "<group>"; };
+		BADE199BAB58533E7DE2905C /* Pods-PayPalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPalTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayPalTest/Pods-PayPalTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E07746C2B63797BF0DB907 /* Pods-MovieDBApiTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDBApiTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieDBApiTask/Pods-MovieDBApiTask.release.xcconfig"; sourceTree = "<group>"; };
+		FEEB551FF87682ABADDFAFC6 /* Pods-MovieDBApiTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieDBApiTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieDBApiTask/Pods-MovieDBApiTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,31 +48,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74977135FD5BCA77E3DC4AC0 /* Pods_MovieDBApiTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35DB5A65BFD5B26D0F391B8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BADE199BAB58533E7DE2905C /* Pods-PayPalTest.debug.xcconfig */,
+				8EACB6CA7BB0D6FB06876E3E /* Pods-PayPalTest.release.xcconfig */,
+				FEEB551FF87682ABADDFAFC6 /* Pods-MovieDBApiTask.debug.xcconfig */,
+				F6E07746C2B63797BF0DB907 /* Pods-MovieDBApiTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E13580D2254AC0D0033FD46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E13580E2254AC190033FD46 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E1670D42254A5EE00525ADE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E1670D52254A62B00525ADE /* Constants.swift */,
+				7E1670E22254A68100525ADE /* CellIDS.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7E1670D92254A63F00525ADE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E1670DA2254A64800525ADE /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E1670DC2254A65300525ADE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7E1670DD2254A65C00525ADE /* ActorCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7E1670DF2254A66A00525ADE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E1670E02254A67600525ADE /* PopularVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7EDD94732223FA3E0005B7B9 = {
 			isa = PBXGroup;
 			children = (
-				7EDD947E2223FA3E0005B7B9 /* PayPalTest */,
+				7EDD947E2223FA3E0005B7B9 /* MovieDBAPITask */,
 				7EDD947D2223FA3E0005B7B9 /* Products */,
+				35DB5A65BFD5B26D0F391B8C /* Pods */,
+				AF9F66FED7875AE0A1BFFB43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7EDD947D2223FA3E0005B7B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EDD947C2223FA3E0005B7B9 /* PayPalTest.app */,
+				7EDD947C2223FA3E0005B7B9 /* MovieDBApiTask.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7EDD947E2223FA3E0005B7B9 /* PayPalTest */ = {
+		7EDD947E2223FA3E0005B7B9 /* MovieDBAPITask */ = {
 			isa = PBXGroup;
 			children = (
+				7E13580D2254AC0D0033FD46 /* Model */,
+				7E1670DF2254A66A00525ADE /* Controller */,
+				7E1670DC2254A65300525ADE /* Cells */,
+				7E1670D92254A63F00525ADE /* Extensions */,
+				7E1670D42254A5EE00525ADE /* Utilities */,
 				7EDD947F2223FA3E0005B7B9 /* AppDelegate.swift */,
 				7EDD94812223FA3E0005B7B9 /* ViewController.swift */,
 				7EDD94832223FA3E0005B7B9 /* Main.storyboard */,
@@ -61,27 +140,38 @@
 				7EDD94882223FA3F0005B7B9 /* LaunchScreen.storyboard */,
 				7EDD948B2223FA3F0005B7B9 /* Info.plist */,
 			);
-			path = PayPalTest;
+			path = MovieDBAPITask;
+			sourceTree = "<group>";
+		};
+		AF9F66FED7875AE0A1BFFB43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B7CCD8C8CD38EB036EF0AF6 /* Pods_PayPalTest.framework */,
+				50C34048214FBC57F0032E00 /* Pods_MovieDBApiTask.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7EDD947B2223FA3E0005B7B9 /* PayPalTest */ = {
+		7EDD947B2223FA3E0005B7B9 /* MovieDBApiTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EDD948E2223FA3F0005B7B9 /* Build configuration list for PBXNativeTarget "PayPalTest" */;
+			buildConfigurationList = 7EDD948E2223FA3F0005B7B9 /* Build configuration list for PBXNativeTarget "MovieDBApiTask" */;
 			buildPhases = (
+				5F0B961B45B43B3483C93FE4 /* [CP] Check Pods Manifest.lock */,
 				7EDD94782223FA3E0005B7B9 /* Sources */,
 				7EDD94792223FA3E0005B7B9 /* Frameworks */,
 				7EDD947A2223FA3E0005B7B9 /* Resources */,
+				34136009575B2030146BD2C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PayPalTest;
+			name = MovieDBApiTask;
 			productName = PayPalTest;
-			productReference = 7EDD947C2223FA3E0005B7B9 /* PayPalTest.app */;
+			productReference = 7EDD947C2223FA3E0005B7B9 /* MovieDBApiTask.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EDD94772223FA3E0005B7B9 /* Build configuration list for PBXProject "PayPalTest" */;
+			buildConfigurationList = 7EDD94772223FA3E0005B7B9 /* Build configuration list for PBXProject "MovieDBApiTask" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EDD947B2223FA3E0005B7B9 /* PayPalTest */,
+				7EDD947B2223FA3E0005B7B9 /* MovieDBApiTask */,
 			);
 		};
 /* End PBXProject section */
@@ -130,13 +220,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34136009575B2030146BD2C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MovieDBApiTask/Pods-MovieDBApiTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovieDBApiTask/Pods-MovieDBApiTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0B961B45B43B3483C93FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieDBApiTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EDD94782223FA3E0005B7B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1670E12254A67600525ADE /* PopularVC.swift in Sources */,
+				7E1670DB2254A64800525ADE /* UIView.swift in Sources */,
 				7EDD94822223FA3E0005B7B9 /* ViewController.swift in Sources */,
+				7E1670E32254A68100525ADE /* CellIDS.swift in Sources */,
 				7EDD94802223FA3E0005B7B9 /* AppDelegate.swift in Sources */,
+				7E1670DE2254A65C00525ADE /* ActorCell.swift in Sources */,
+				7E13580F2254AC190033FD46 /* Movie.swift in Sources */,
+				7E1670D62254A62B00525ADE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +419,12 @@
 		};
 		7EDD948F2223FA3F0005B7B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEB551FF87682ABADDFAFC6 /* Pods-MovieDBApiTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GUS473JQDG;
-				INFOPLIST_FILE = PayPalTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieDBAPITask/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +438,12 @@
 		};
 		7EDD94902223FA3F0005B7B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E07746C2B63797BF0DB907 /* Pods-MovieDBApiTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GUS473JQDG;
-				INFOPLIST_FILE = PayPalTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieDBAPITask/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EDD94772223FA3E0005B7B9 /* Build configuration list for PBXProject "PayPalTest" */ = {
+		7EDD94772223FA3E0005B7B9 /* Build configuration list for PBXProject "MovieDBApiTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EDD948C2223FA3F0005B7B9 /* Debug */,
@@ -326,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EDD948E2223FA3F0005B7B9 /* Build configuration list for PBXNativeTarget "PayPalTest" */ = {
+		7EDD948E2223FA3F0005B7B9 /* Build configuration list for PBXNativeTarget "MovieDBApiTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EDD948F2223FA3F0005B7B9 /* Debug */,
