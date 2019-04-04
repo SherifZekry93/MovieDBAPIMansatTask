@@ -37,6 +37,8 @@ class ActorCell: UITableViewCell {
         //label.text = "Sherif"
         label.textAlignment = .center
         label.font = UIFont.boldSystemFont(ofSize: 29)
+        label.backgroundColor = .black
+        label.textColor = .white
         return label
     }()
     required init?(coder aDecoder: NSCoder) {
@@ -50,7 +52,8 @@ class ActorCell: UITableViewCell {
         containerView.addSubview(actorImage)
         actorImage.anchorToView(top: containerView.topAnchor, leading: containerView.leadingAnchor, bottom: nil, trailing: containerView.trailingAnchor, padding: .zero, size: .init(width: 0, height: 250))
         containerView.addSubview(nameLabel)
-        nameLabel.anchorToView(top: actorImage.bottomAnchor, leading: leadingAnchor, bottom: nil, trailing: trailingAnchor,size:.init(width: 0, height: 50))
+        nameLabel.anchorToView(top: actorImage.bottomAnchor, leading: containerView.leadingAnchor, bottom: containerView.bottomAnchor, trailing: containerView.trailingAnchor)
+        
     }
     func configureCell(actor:Actor)
     {
