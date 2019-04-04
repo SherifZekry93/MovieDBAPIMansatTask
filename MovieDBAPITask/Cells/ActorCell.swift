@@ -37,6 +37,7 @@ class ActorCell: UITableViewCell {
         //label.text = "Sherif"
         label.textAlignment = .center
         label.font = UIFont.boldSystemFont(ofSize: 29)
+        label.numberOfLines = -1
         label.backgroundColor = .black
         label.textColor = .white
         return label

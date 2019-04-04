@@ -97,10 +97,11 @@ class PopularVC: UITableViewController {
                     if let results = actorRoot.total_results
                     {
                         self.totalResults = results
-                    }
-                    if actorRoot.results?.count == 0
-                    {
-                        ProgressHUD.showError("No actors to display!")
+                        if self.totalResults == 0
+                        {
+                            ProgressHUD.showError("No actors to display!")
+                            return
+                        }
                     }
                     actorRoot.results?.forEach({ (actor) in
                         self.filteredActors.append(actor)
