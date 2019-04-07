@@ -28,7 +28,7 @@ extension PopularVC:UISearchBarDelegate
         if let text = searchBar.text, text != ""
         {
             filteredActors.removeAll()
-            tableView.scrollsToTop = true
+//            tableView.scrollsToTop = true
             searchAllActors(searchText: text)
         }
         else
@@ -41,7 +41,7 @@ extension PopularVC:UISearchBarDelegate
     }
     fileprivate func refreshSearchData()
     {
-        tableView.scrollsToTop = true
+//        tableView.scrollsToTop = true
         self.searchController.isActive = false
         filteredActors.removeAll()
         self.tableView.reloadData()
